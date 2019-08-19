@@ -1,0 +1,5 @@
+agenda = open("contatos.txt", "r")
+contatos = agenda.read()
+print("Os contatos da agenda são:\n")
+print(contatos)
+agenda.close()
